@@ -1,0 +1,23 @@
+
+
+/* background for login and signup pages */
+.custom_bg {
+  background-image: linear-gradient(
+    to left bottom,
+    #d0d5d6,
+    #d0d5d6,
+  
+  );
+}
+
+/* Hide Scroll bar for Application pages */
+.scrollbar-hide ::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
